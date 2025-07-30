@@ -14,6 +14,7 @@ import '../../features/reports/screens/reports_screen.dart';
 import '../../features/profile/screens/profile_screen.dart';
 import '../../features/help/screens/help_screen.dart';
 import '../../features/help/screens/voice_help_screen.dart';
+import '../../features/chatbot/screens/chatbot_screen.dart';
 
 final routerProvider = Provider<GoRouter>((ref) {
   return GoRouter(
@@ -123,6 +124,13 @@ final routerProvider = Provider<GoRouter>((ref) {
         path: '/help/voice',
         name: 'voice-help',
         builder: (context, state) => const VoiceHelpScreen(),
+      ),
+      
+      // Chatbot Route
+      GoRoute(
+        path: '/chatbot',
+        name: 'chatbot',
+        builder: (context, state) => const ChatbotScreen(),
       ),
     ],
   );

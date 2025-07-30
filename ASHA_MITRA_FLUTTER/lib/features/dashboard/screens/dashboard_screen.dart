@@ -270,6 +270,12 @@ class DashboardScreen extends ConsumerWidget {
           ],
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => context.push('/chatbot'),
+        backgroundColor: Theme.of(context).colorScheme.primary,
+        child: const Icon(Icons.chat_outlined, color: Colors.white),
+        tooltip: texts.chatbotAssistant,
+      ),
       bottomNavigationBar: const BottomNavBar(currentIndex: 0),
     );
   }

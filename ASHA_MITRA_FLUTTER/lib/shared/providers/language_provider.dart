@@ -115,6 +115,23 @@ class AppTexts {
   final String cancel;
   final String viewReports;
   
+  // Chatbot related texts
+  final String chatbotAssistant;
+  final String chatWithAssistant;
+  final String askMeAnything;
+  final String uploadPrescription;
+  final String takePicture;
+  final String selectFromGallery;
+  final String typeYourMessage;
+  final String sendMessage;
+  final String listening;
+  final String tapToSpeak;
+  final String processingYourRequest;
+  final String uploadingImage;
+  final String speechRecognitionNotAvailable;
+  final String scanningPrescription;
+  final String chatbotWelcomeMessage;
+  
   // Report screen specific texts
   final String monthlyOverview;
   final String patientCategories;
@@ -261,11 +278,45 @@ class AppTexts {
     required this.upcoming,
     required this.noPatientData,
     required this.noAppointmentData,
+    
+    // Chatbot related texts
+    required this.chatbotAssistant,
+    required this.chatWithAssistant,
+    required this.askMeAnything,
+    required this.uploadPrescription,
+    required this.takePicture,
+    required this.selectFromGallery,
+    required this.typeYourMessage,
+    required this.sendMessage,
+    required this.listening,
+    required this.tapToSpeak,
+    required this.processingYourRequest,
+    required this.uploadingImage,
+    required this.speechRecognitionNotAvailable,
+    required this.scanningPrescription,
+    required this.chatbotWelcomeMessage,
   });
 }
 
 // English texts
 const englishTexts = AppTexts(
+  // Chatbot related texts
+  chatbotAssistant: 'AI Assistant',
+  chatWithAssistant: 'Chat with AI Assistant',
+  askMeAnything: 'Ask me anything about health...',
+  uploadPrescription: 'Upload Prescription',
+  takePicture: 'Take Picture',
+  selectFromGallery: 'Select from Gallery',
+  typeYourMessage: 'Type your message...',
+  sendMessage: 'Send',
+  listening: 'Listening...',
+  tapToSpeak: 'Tap to speak',
+  processingYourRequest: 'Processing your request...',
+  uploadingImage: 'Uploading image...',
+  speechRecognitionNotAvailable: 'Speech recognition not available',
+  scanningPrescription: 'Scanning prescription...',
+  chatbotWelcomeMessage: 'Hello, I\'m your AI health assistant. How can I help you today?',
+  
   appName: 'ASHA Mitra',
   appTagline: 'Community Health Companion',
   signIn: 'Sign In',
@@ -381,6 +432,23 @@ const englishTexts = AppTexts(
 
 // Bengali texts
 const bengaliTexts = AppTexts(
+  // Chatbot related texts
+  chatbotAssistant: 'এআই সহায়ক',
+  chatWithAssistant: 'এআই সহায়কের সাথে চ্যাট করুন',
+  askMeAnything: 'স্বাস্থ্য সম্পর্কে যেকোনো প্রশ্ন করুন...',
+  uploadPrescription: 'প্রেসক্রিপশন আপলোড করুন',
+  takePicture: 'ছবি তুলুন',
+  selectFromGallery: 'গ্যালারি থেকে নির্বাচন করুন',
+  typeYourMessage: 'আপনার বার্তা টাইপ করুন...',
+  sendMessage: 'প্রেরণ করুন',
+  listening: 'শুনছি...',
+  tapToSpeak: 'কথা বলতে আলতো চাপুন',
+  processingYourRequest: 'আপনার অনুরোধ প্রক্রিয়াকরণ করছি...',
+  uploadingImage: 'ছবি আপলোড করছি...',
+  speechRecognitionNotAvailable: 'ভয়েস শনাক্তকরণ উপলব্ধ নয়',
+  scanningPrescription: 'প্রেসক্রিপশন স্ক্যান করছি...',
+  chatbotWelcomeMessage: 'হ্যালো, আমি আপনার এআই স্বাস্থ্য সহায়ক। আমি আপনাকে কীভাবে সাহায্য করতে পারি?',
+  
   appName: 'আশা মিত্র',
   appTagline: 'কমিউনিটি স্বাস্থ্য সহায়ক',
   signIn: 'লগইন',
