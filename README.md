@@ -17,7 +17,7 @@ Asha Mitra is a **mobile-first app** designed for **ASHA workers** to digitize d
 
 ---
 
-## The Problem It Solves
+## The Problem It Solve
 Asha Mitra addresses common challenges faced by ASHA workers:
 1. Difficulty managing handwritten records  
 2. Time wasted on manual data tracking  
